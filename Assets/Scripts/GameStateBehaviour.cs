@@ -61,6 +61,7 @@ public class GameStateBehaviour : Singleton<GameStateBehaviour> {
 		first.SetActive(false);
 		second.SetActive(false);
 		third.SetActive(false);
+		Timer.Instance.StopSound();
 		anim.SetTrigger("Return");
 	}
 	

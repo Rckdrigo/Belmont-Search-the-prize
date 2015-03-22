@@ -4,6 +4,8 @@ using System.Collections;
 
 public class ObjectSelectable : MonoBehaviour {
 
+	public Transform search;
+
 	void Start(){
 		GameStateBehaviour.Instance.Reset += Reset;
 	}
@@ -16,5 +18,6 @@ public class ObjectSelectable : MonoBehaviour {
 	public void AddPoint(){
 		GetComponent<AudioSource>().Play();
 		GameStateBehaviour.Instance.AddPoint();
+		search.FindChild(name).GetComponent<ObjectReference>().ObjectFound();
 	}
 }
