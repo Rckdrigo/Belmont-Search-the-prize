@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameStateBehaviour.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ObjectSelectable.cs" Line="19" Column="3" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="31" Column="23" />
+      <File FileName="Assets/Scripts/GameStateBehaviour.cs" Line="77" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

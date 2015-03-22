@@ -28,6 +28,10 @@ public class Timer : Singleton<Timer> {
 		timerActive = false;
 	}
 	
+	public void StopSound(){
+		GetComponent<AudioSource>().Stop();
+	}
+	
 	public void SetTimer(float maxTime){
 		initialTime = Time.time;
 		time = maxTime;
@@ -42,7 +46,6 @@ public class Timer : Singleton<Timer> {
 		if(timerActive){
 			if(actualTime <= time){
 				actualTime = Time.time - initialTime;
-				//print ("A: "+actualTime + " T: " + time);
 			}
 			else{
 				actualTime = time;
