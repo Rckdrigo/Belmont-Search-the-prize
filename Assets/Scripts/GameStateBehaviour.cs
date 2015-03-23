@@ -75,7 +75,7 @@ public class GameStateBehaviour : Singleton<GameStateBehaviour> {
 	public void StartGame () {
 		anim.SetTrigger("StartGame");
 		ScenarioSelector.Instance.SelectScenario();
-		Timer.Instance.SetTimer(60);
+		Timer.Instance.SetTimer(30);
 	}
 
 }
